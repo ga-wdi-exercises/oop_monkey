@@ -1,9 +1,9 @@
 # Monkies!!
 
 Create a `Monkey` class in `lib/monkey.rb`, which has the following attributes:
-* name
-* species
-* foodsEaten
+* name - (a string)
+* species - (a string)
+* foods_eaten - (an array)
 
 And the following methods:
 * eat(food) - adds the food (a string) to the list of foods eaten
