@@ -10,6 +10,10 @@ And the following methods:
 * introduce - introduces self, with name, species, and what it's eaten.
 
 
-Run tests using `rspec`.
+## Goal
+
+Run tests using `rspec`. Pass all tests.
 
 ## Bonus
+
+Uncomment the bonus tests in `spec/monkey_spec` and make them pass.

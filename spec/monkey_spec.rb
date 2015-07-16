@@ -36,5 +36,25 @@ describe Monkey do
     expect(jesse.introduce).to include("bacon")
   end
 
+  # ******BONUS******
+  # it "always has a capitalized name" do
+  #   robin = Monkey.new("robin", "Olive Baboon")
+  #   expect(robin.name).to eq("Robin")
+  # end
+  #
+  # it "won't eat foods begninng with a vowel" do
+  #   robin = Monkey.new("robin", "Olive Baboon")
+  #
+  #   robin.eat("apple")
+  #   robin.eat("eclair")
+  #   robin.eat("ice")
+  #   robin.eat("ovaltine")
+  #   robin.eat("udon")
+  #
+  #   robin.eat("pudding")
+  #   robin.eat("chocolate")
+  #
+  #   expect(robin.foods_eaten).to eq(["pudding", "chocolate"])
+  # end
 
 end
