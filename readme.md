@@ -9,6 +9,13 @@ And the following methods:
 * eat(food) - adds the food (a string) to the list of foods eaten
 * introduce() - introduces self, with name, species, and what it's eaten.
 
+## Setup
+
+Install dependencies:
+```bash
+$ npm install -g jasmine-node
+$ npm install
+```
 
 ## Goal
 
