@@ -25,9 +25,9 @@
  * toys - (an array containing three strings)
 
 2. Add the following methods:
- * `play()` - console.logs a string that says I love to play with a [toy]
+ * `play()` - console.logs a string that says: I love to play with a `[toy]`
 
-3. Have the Dog Prototype inherit methods from Monkey
+3. Have the Dog Prototype inherit methods from the Monkey Prototype
 
 4. Test your Constructor Function and Prototypes Methods in the Browser Console
 
