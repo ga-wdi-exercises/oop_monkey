@@ -1,28 +1,44 @@
 # Monkies!!
 
-Create a `Monkey` constructor in `lib/monkey.js`, which has the following attributes:
+1. Create a `Monkey` constructor in `js/monkey.js`, which has the following attributes:
 * name - (a string)
-* species - (a string)
+* species- (a string)
 * foodsEaten - (an array)
 
-And the following methods:
+2. And the following methods:
 * eat(food) - adds the food (a string) to the list of foods eaten
 * introduce() - introduces self, with name, species, and what it's eaten.
 
-## Setup
+3. Create Two instances using the `Monkey` Constructor:
+* each instance should have a unique name and species
 
-Install dependencies:
-```bash
-$ npm install -g jasmine-node
-$ npm install
-```
+4. Test your Constructor Function and Prototype Methods in the Browser
 
-## Goal
-
-Run tests using `jasmine-node spec`. Write code in your Monkey constructor to make the tests pass.
-
-Make sure to use the Monkey prototype so that you're not creating multiple copies of the functions for your monkies!
+***The solution for this exercise is located in `solution/solution.js`***
 
 ## Bonus
 
-Uncomment the bonus tests in `spec/monkey_spec` and make them pass.
+1. Create a `Dog` constructor in `js/monkey.js`, which has the following attributes:
+* name - (a string)
+* species- (a string)
+* foodsEaten - (an array)
+* toys - (an array containing three strings)
+
+2. Add the following methods:
+* play() - console.logs a string that says I love to play with a [toy]
+
+3. Have the Dog Prototype inherit methods from Monkey
+
+4. Test your Constructor Function and Prototypes Methods in the Browser
+
+  * Give the following code:
+  `var rover = new Dog("Rover", "Beagle")`
+
+  * When I add in the following:
+  `rover.eat("dogTreat")`
+
+  * And call this method:
+  `rover.introduce()`
+
+  * It should return:
+  `"Hello! I'm Rover and I'm a Beagle and I've eaten a dogTreat"`
