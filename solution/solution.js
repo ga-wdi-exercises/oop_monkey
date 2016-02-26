@@ -9,12 +9,13 @@ Monkey.prototype.eat = function(food) {
 }
 
 Monkey.prototype.introduce = function() {
-  return "Hello! I'm " + this.name + " and I'm a " + this.species + " and I've eaten a " + this.foodsEaten;
+  var lastFoodIndex = this.foodsEaten.length - 1;
+  return "Hello! I'm " + this.name + " and I'm a " + this.species + " and I just ate a " + this.foodsEaten[lastFoodIndex];
 }
 
 
-var becky = ("Becky", "Spider Monkey");
-var andy = ("Andy", "Cool Monkey");
+var becky = new Monkey("Becky", "Spider Monkey");
+var andy = new Monkey("Andy", "Cool Monkey");
 
 
 // BONUS

@@ -7,7 +7,7 @@
 
 2. And the following methods:
  * `eat(food)` - adds the food (a string) to the list of foods eaten
- * `introduce()` - introduces self, with name, species, and what it's eaten.
+ * `introduce()` - introduces self, with name, species, and the last food it has eaten.
 
 3. Create Two instances using the `Monkey` Constructor:
  * each instance should have a unique name and species
