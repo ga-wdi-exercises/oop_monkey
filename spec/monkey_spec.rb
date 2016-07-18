@@ -25,13 +25,13 @@ describe Monkey do
   end
 
   it "can eat a food (a string)" do
-    matt = Monkey.new("Matt", "Mandrill")
-    matt.eat("banana")
-    matt.eat("PB&J")
+    james = Monkey.new("James", "Pomo Sapiens")
+    james.eat("steel I-beam")
+    james.eat("fried chicken")
 
     # we can make more general expectations, like expect(this_array) to include something
-    expect(matt.foods_eaten).to include("banana")
-    expect(matt.foods_eaten).to include("PB&J")
+    expect(james.foods_eaten).to include("steel I-beam")
+    expect(james.foods_eaten).to include("fried chicken")
   end
 
   it "can introduce itself with name, species, and foods eaten" do
