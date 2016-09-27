@@ -1,13 +1,13 @@
 # Monkies!!
 
 Create a `Monkey` class in `lib/monkey.rb`, which has the following attributes:
-* name - (a string)
-* species - (a string)
-* foods_eaten - (an array)
+* `name` - a string, which should be determined by some input
+* `species` - a string, which should be determined by some input
+* `foods_eaten` - an array, which should be initialized as an empty array
 
 And the following methods:
-* eat(food) - adds the food (a string) to the list of foods eaten
-* introduce - introduces self, with name, species, and what it's eaten.
+* `eat(food)` - adds a food (a string) to the list of foods eaten
+* `introduce` - introduces self, with name, species, and what it's eaten
 
 ## Goal
 
@@ -26,8 +26,6 @@ we expect to happen when we use our code (usually classes/objects).
 
 When we run the tests, it compares what our code does to what our tests expect,
 and tells us which pass and which fail.
-
-
 
 ## Bonus
 
