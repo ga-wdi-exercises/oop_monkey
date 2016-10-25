@@ -11,11 +11,11 @@ And the following methods:
 
 ## Goal
 
-Run tests using `rspec` from inside the `oop_monkey` folder (not in any subfolders). Write code in your Monkey class to make the tests pass.
+Run tests using `rspec` from inside the `oop_monkey` folder (not in any subfolders). Write code in your Monkey class to make the tests pass. Before you start, run `bundle install` in the terminal.
 
 Note:
 * You should not need to alter the `monkey_spec` file in any way (except for the bonus below).
-* You shouldn't need to run `ruby lib/monkey.rb` or use the `ruby` command at all -- just `rspec`.
+* You shouldn't need to run `ruby lib/monkey.rb` or use the `ruby` command at all -- just `rspec spec/monkey_spec.rb`.
 * You can completely ignore the `.rspec` and `spec_helper.rb` files.
 
 ### What is RSpec?

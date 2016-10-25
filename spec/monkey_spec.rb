@@ -46,25 +46,25 @@ describe Monkey do
   end
 
   # ******BONUS******
-  # it "always has a capitalized name" do
-  #   robin = Monkey.new("robin", "Olive Baboon")
-  #   expect(robin.name).to eq("Robin")
-  # end
-  #
-  # it "won't eat foods begninng with a vowel" do
-  #   robin = Monkey.new("robin", "Olive Baboon")
-  #
-  #   robin.eat("apple")
-  #   robin.eat("eclair")
-  #   robin.eat("ice")
-  #   robin.eat("ovaltine")
-  #   robin.eat("udon")
-  #
-  #   robin.eat("pudding")
-  #   robin.eat("chocolate")
-  #
-  #   # we only expect to see non-vowel foods in the list of foods_eaten
-  #   expect(robin.foods_eaten).to eq(["pudding", "chocolate"])
-  # end
+  it "always has a capitalized name" do
+    robin = Monkey.new("robin", "Olive Baboon")
+    expect(robin.name).to eq("Robin")
+  end
+
+  it "won't eat foods begninng with a vowel" do
+    robin = Monkey.new("robin", "Olive Baboon")
+
+    robin.eat("apple")
+    robin.eat("eclair")
+    robin.eat("ice")
+    robin.eat("ovaltine")
+    robin.eat("udon")
+
+    robin.eat("pudding")
+    robin.eat("chocolate")
+
+    # we only expect to see non-vowel foods in the list of foods_eaten
+    expect(robin.foods_eaten).to eq(["pudding", "chocolate"])
+  end
 
 end
